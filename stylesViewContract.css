@@ -1,0 +1,336 @@
+/* Reset CSS */
+
+
+/* Styling navigation menu */
+header {
+
+    background-color: #fcf9d5;
+    padding: 50px 0;
+    display:flex; /* Sử dụng flexbox */
+    justify-content: space-between; /* Canh giữa theo chiều ngang */
+
+}
+body{
+    background: #f5ed96;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex; /* Sử dụng flexbox cho menu */
+}
+
+nav ul li {
+    margin: 0 10px; /* Khoảng cách giữa các phần tử trong menu */
+}
+
+/* chữ trong menu */
+nav ul li a { 
+    color: rgb(41, 11, 11);
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #f5ed96;
+    border-radius: 10px ;
+}
+
+.ImageLogo {
+    width: 0px;
+    height: 50px;
+    margin-right: 0px;
+}
+
+/* màu của viền */
+.HomeBuy {
+    border: 1px solid black; 
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.HomeRent {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Project {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contract {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.property {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.login {
+    border-radius: 5px;
+    background: #fcf9d5;
+    height: 60px;
+    width: 160px;
+    margin-right: 20px;
+    font-size: large;
+    border-radius: 10px;
+}
+.login:hover{
+
+    background-color: #f5ed96;
+    border-radius: 10px ;
+}
+
+.signup {
+    background: #fcf9d5;
+    border-radius: 10px;
+    width: 160px;
+    margin-right: 90px; /* Để giữ khoảng cách giữa các nút */
+    margin-left: -150px;
+    font-size: large;
+}
+.signup:hover{
+    background-color: #f5ed96;
+    border-radius: 10px ;
+}
+
+.container_1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.little_menu{
+    text-decoration: none;
+    background: white;
+    font-size:larger;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.daudong{
+    list-style-type:circle;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+.PheDuyet{
+    width: 200px;
+    margin-bottom: 0px;
+}
+.QuanLy{
+    margin-top: 20px;
+}
+.ThanhToan{
+    margin-top: 20px;
+}
+.BaoCao{
+    margin-top: 20px;
+}
+.ThietLap{
+    margin-top: 20px;
+}
+.inputs{
+    padding: 100px;
+    margin-left: 300px;
+    margin-top: -250px;
+}
+
+input{
+    margin-top: 10px;
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+label{
+    margin-right: 60px;
+}
+.containerContract{
+    margin-top: -600px;
+    margin-left: 350px;
+    font-size: 20px;
+
+}
+h1{
+    position: relative;
+    top: 100px;
+    font-size: 40px;
+    margin-left: 800px;
+}
+h3{
+    position: relative;
+    top: 100px;
+    left: 350px;
+}
+.containerUser{
+    flex-direction: column;
+    margin-left: 950px;
+    margin-top: -530px;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+select{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+button[name='submit']{
+    position: relative;
+    top:250px;
+    left: 850px;
+    margin-left:0px;
+    margin-top: 0px;
+    width: 180px;
+    height: 70px;
+    border-radius:10px ;
+    background-color: aqua;
+    font-size: 20px;
+    text-decoration: none;
+}
+.card {
+    position: relative;
+    right: 500px;
+    border: 1px solid #ccc;
+    background-color: #f4e118;
+    padding: 10px;
+    margin: 10px;
+    width: 900px;
+    height: 450px;
+    /* Thêm các thuộc tính CSS khác tùy ý */
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.nameContract{
+    font-size: 40px;
+    text-align: center;
+}
+
+button[name='ChuyenTrang']{
+    position: relative;
+    top:150px;
+    left: 850px;
+    margin-left:0px;
+    margin-top: 0px;
+    width: 180px;
+    height: 70px;
+    border-radius:10px ;
+    background-color: rgb(137, 137, 8);
+    font-size: 20px;
+    text-decoration: none;
+
+
+}
+button[name='ChuyenTrang']:hover {
+    background-color: #0b9569;
+    border-radius: 10px ;
+}
+.addContractLink {
+    text-decoration: none; /* Loại bỏ gạch chân mặc định của thẻ a */
+    color: #333; /* Màu sắc cho chữ */
+    transition: color 0.3s ease-in-out; /* Hiệu ứng chuyển màu */
+
+}
+
+.nameContract{
+    font-size: 40px;
+    text-align: center;
+}
+
+.user{
+    position: relative;
+    left: 500px;
+    bottom: 300px;
+}
+
+footer {
+    position: relative;
+    top: 500px;
+    text-align: center;
+    height: 300px;
+    background-color: rgba(92, 177, 139, 0.812);
+    color: black;
+  }
+
+.ImageLogoDown{
+    position: relative;
+    right: 510px;
+    top: 5px;
+
+}
+
+.AddressCity{
+    position: relative;
+    right: 500px;
+    top: -15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.HuongDan{
+    position: relative;
+    right: 150px;
+
+    bottom: 260px;
+}
+
+.dsHuongDan{
+    position: relative;
+    right: 30px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
+.huongdanNha{
+    font-weight: bold;
+
+    font-size: 30px;
+}
+.QuyDinh{
+    position: relative;
+    left: 150px;
+
+    bottom: 470px;
+}
+
+.dsQuyDinh{
+    position: relative;
+    right: 15px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
+.quydinhNha{
+    font-weight: bold;
+
+    font-size: 30px;
+}
+
+.AddressPPC{
+    position: relative;
+    left: 520px;
+    bottom: 620px;
+    font-size: 15px;
+    font-weight: bold;
+
+
+}
+.ImageLogoPPCDown{
+
+    position: relative;
+    left: 520px;
+    bottom: 650px;
+}
